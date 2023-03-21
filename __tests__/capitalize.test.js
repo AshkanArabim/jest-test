@@ -2,7 +2,7 @@ const capitalize = require("../src/capitalize");
 
 // one word
 test("capitalizes the first letter of one word", () => {
-  expect(capitalize("testing").toBe("Testing"));
+  expect(capitalize("testing")).toBe("Testing");
 });
 
 // a sentence
